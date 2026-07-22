@@ -27,7 +27,7 @@ print("Let's start you journey")
 obstacle1=int(input('''You just defeated Kaido and you are about to sale for the Treasure  but there is only two routes:
                 1.The one which leads to Shanks
                 2.The one which leads to Punk Hazzard
-                    choose the correct  path  accoding to the One Piece story:'''))
+                    choose the correct path accoding to the One Piece story:'''))
 if obstacle1 == 1:
     print("You got one shotted by shanks overwelming haki dominance")
     print("You did't found the Treasue ") 
@@ -42,7 +42,7 @@ elif obstacle1== 2:
     elif obstacle2 == 2:
         print('''Good you ignored Loki , Congratts!!! now you have reached the final island Laughtale where the the world's greatest treature "The One Piece" has been left for you.''')
     else :
-        print("Vegapunk got angry with your answer and decided to execute you as gave the incorrect input.")    
+        print("Vegapunk got angry with your answer and decided to execute you as you gave the incorrect input.")    
 else:
     print("The path did't exist")    
 print("The END")
