@@ -10,5 +10,10 @@ if height>200 or height<20 :
     print("Enter correct height")
 elif  height>=120:
     print("You'r welcome to the rollercoaster")
+    age=int(input("Enter your age:"))
+    if age>=18:
+        print("Your ride charge is 5$")
+    else:
+        print("Your ride charge is 3$") 
 else :
     print("Go increase your height")    
