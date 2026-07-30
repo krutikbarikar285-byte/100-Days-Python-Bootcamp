@@ -1,0 +1,16 @@
+# for loop is an loop in python that is used for repetition of code 
+list=["apple","orange","grape","orange"]
+for i in list:
+    print(i)
+    print(f"{i} + 'pie'")
+print(list)  
+
+lists=[]
+n=2
+for i in range(n):
+    lists.append("mango")
+    lists.append("banana")
+    lists.append("beery")
+print(lists) 
+for i in range(3):
+    print("hi")   
